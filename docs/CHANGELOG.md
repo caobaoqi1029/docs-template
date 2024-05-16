@@ -1,4 +1,9 @@
 
+## V1.1.0 <Badge type="tip" text="^1.1.0" />
+
+- DockerImage
+
+
 ## V1.0.0 <Badge type="tip" text="^1.0.0" />
 
 - 项目框架完成
