@@ -474,7 +474,7 @@ const members = [
 
 https://www.npmjs.com/package/vitepress-plugin-comment-with-giscus
 
-![image-20240602165735501](../../../../AppData/Roaming/Typora/typora-user-images/image-20240602165735501.png)
+![image-20240602165735501](https://2024-cbq-1311841992.cos.ap-beijing.myqcloud.com/picgo/image-20240602165735501.png)
 
 ```json
 "vitepress-plugin-comment-with-giscus": "^1.1.15"
