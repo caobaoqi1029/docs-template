@@ -1,3 +1,10 @@
+## V1.2.0 <Badge type="tip" text="^1.2.0" />
+
+- vite-press-example.md
+    - math、giscus
+- init dev-tools/git
+
+
 
 ## V1.1.0 <Badge type="tip" text="^1.1.0" />
 

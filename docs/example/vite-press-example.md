@@ -157,12 +157,16 @@ node 的安装推荐使用 nvm 进行安装，nvm 是一款 node 的管理工具
 
 > 更多信息可参见
 >
-> - https://vitepress.dev/zh/guide/getting-started 
+> - https://vitepress.dev/zh/guide/getting-started
 > - https://vitepress.dev/zh/reference/site-config#vite%E3%80%81vue-%E5%92%8C-markdown-%E9%85%8D%E7%BD%AE
 
 ![image-20240602162033023](https://2024-cbq-1311841992.cos.ap-beijing.myqcloud.com/picgo/image-20240602162033023.png)
 
 ## 五、部署
+
+> [!TIP]
+>
+> tag 操作可参见 [在 IDEA 中使用 Git](../dev-tools/git/git-02.md#tag-发布)
 
 ### 5.1 部署到 github pages
 
@@ -293,7 +297,7 @@ jobs:
         with:
           files: 'build/**'
         env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} 
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
       - name: 部署文档 👌
         uses: JamesIves/github-pages-deploy-action@v4
@@ -397,7 +401,7 @@ jobs:
 >
 > 下面的内容主要为插件配置，通过插件我们可以拓展 VitePress 功能，实现更强的自定义，对于插件配置来说，通常步骤为：
 >
-> 1. 在 package.json 中添加相关插件的坐标，引入依赖 
+> 1. 在 package.json 中添加相关插件的坐标，引入依赖
 > 2. 在 .vitepress/theme/index.js 中配置插件
 
 ### X.1 为项目添加公式支持
@@ -494,7 +498,7 @@ export default {
         // 获取前言和路由
         const { frontmatter } = toRefs(useData());
         const route = useRoute();
-        
+
         // 评论组件 - https://giscus.app/
         giscusTalk({
             repo: '你的仓库地址',
